@@ -1,0 +1,10 @@
+
+
+
+.boton {                                    
+       margin: auto;
+    text-decoration: none;
+    border-color: white;
+    border:0px;
+    display: table;
+}
