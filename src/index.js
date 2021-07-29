@@ -1,7 +1,7 @@
   import React from 'react';
   import ReactDOM from 'react-dom';
   import './index.css';
-  import Excersices from './pages/Exercises'
+
   import 'bootstrap/dist/css/bootstrap.css'
   import App from './components/App'
 

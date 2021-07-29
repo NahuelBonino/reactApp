@@ -11,8 +11,8 @@ class ExercisesNew extends React.Component{
             title: "",
             description: "",
             img : "",
-            leftColor: "rgb(0,0,0)",
-            rightColor: "rgb(0,0,0)"
+            leftColor: "",
+            rightColor: ""
         }
     }   
 
@@ -31,8 +31,8 @@ class ExercisesNew extends React.Component{
 
         return (
         
-            <div className="row">
-                <div className="col-sm">
+            <div className="row Fitness-User-Info" style = {{ paddingTop: `200px`}} >
+                <div className="col-sm pb-5">
                     <Card 
                        {...this.state.form}
                     />

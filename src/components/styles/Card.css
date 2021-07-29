@@ -1,14 +1,15 @@
 .card {
     border: none;
-    border-radius: 8px;
+    border-radius: 8px;     
 }
+
 .Fitness-User-Info {                                    
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 200px;
 }
 .Fitness-Card {
-    max-height: 140px;
+    max-height: 100%;
     max-width: 520px;
 }
 .Fitness-Card-Info {

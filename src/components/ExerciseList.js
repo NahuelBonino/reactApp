@@ -7,7 +7,7 @@ const ExerciseList = ({exercises}) => (
 
             exercises.map( (exercise) => {
 
-              return ( <div className="pb-5">
+              return ( 
                         <Card 
                             key = {exercise.id}
                             title={exercise.title}
@@ -15,8 +15,8 @@ const ExerciseList = ({exercises}) => (
                             img = {exercise.img}
                             leftColor={exercise.leftColor}
                             rightColor={exercise.rightColor}
-                            />
-                        </div>
+                        />
+                  
                     )
             }) //itera todos los elemtos del array
         
