@@ -5,10 +5,7 @@
 
     class Exercises extends React.Component {
 
-        constructor(props){
-
-            super(props);
-            this.state = {
+        state = {
                             data: [{
                                     "id": 1,
                                     "title": "Technique Guides",
@@ -33,7 +30,7 @@
                                 }]
                        }
                         
-        }
+         
 
 
         render(){

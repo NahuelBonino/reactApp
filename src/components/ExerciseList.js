@@ -3,13 +3,13 @@ import Exercises from '../pages/Exercises'
 import Card from './Card'
 
 
-function ExerciseList(props){
-    
-    return(
-      
-            props.exercises.map( (exercise) => {
+const ExerciseList = ({exercises}) => (
 
-              return ( <div className="pb-5"><Card 
+            exercises.map( (exercise) => {
+
+              return ( <div className="pb-5">
+                        <Card 
+                            key = {exercise.id}
                             title={exercise.title}
                             description={exercise.description}
                             img = {exercise.img}
@@ -20,10 +20,9 @@ function ExerciseList(props){
                     )
             }) //itera todos los elemtos del array
         
-    )
+)
 
 
 
-}
 
 export default ExerciseList;

@@ -6,17 +6,6 @@ import CircleImg from '../img/circles.png'
 
 class Card extends React.Component{
 
-    constructor(props){
-
-        super(props);
-
-
-    }
-
-    componentDidMount(){//funcion que se invoca inmediatamente despues de montado el componente
-        
-    }     
-
     render(){
 
         const {title,description,img,leftColor,rightColor} = this.props;
