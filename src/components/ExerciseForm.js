@@ -2,20 +2,15 @@ import React from 'react'
 
 class ExercisesNew extends React.Component{
 
-    handleSubmit = e => {
-        e.preventDefault()
-        console.log(this.state)
-    }
-
     render(){
 
-        const { onChange, form } = this.props
+        const { onChange, onSubmit, form } = this.props
 
         return (
 
             <div className="container">
             <form 
-                onSubmit={this.handleSubmit}
+                onSubmit={onSubmit}
             >
                 <div className="form-group">
                     <input 
