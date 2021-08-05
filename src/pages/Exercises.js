@@ -4,7 +4,8 @@
     import Boton from '../components/Boton'
     import Loading from '../components/Loading'
     import '../components/styles/Loading.css'
-    import FatalError from './500';
+    import FatalError from './500'
+    import url from '../config'
     
     class Exercises extends React.Component {
 
@@ -22,7 +23,7 @@
 
          fetchExercises = async () => {
             try{
-                let res = await fetch('http://localhost:8000/api/exercises')
+                let res = await fetch(`${url}/exercises`)
                 let data = await res.json()
 
                 this.setState({
@@ -54,7 +55,7 @@
             else{
                 return (
     
-                    <div> 
+                    <React.Fragment> 
                         <Welcome
                             userName = "Nahuel"      
                         />
@@ -64,7 +65,7 @@
                         
                         />
                         <Boton />    
-                   </div>      
+                   </React.Fragment>      
 
                 )
             }

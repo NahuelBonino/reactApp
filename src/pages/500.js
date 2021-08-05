@@ -1,5 +1,5 @@
 import React from 'react'
-import '../components/styles/Errors.css'
+import '../components/styles/Error.css'
 import FatalErrorImg from '../img/500.png'
 
 const FatalError = () => (

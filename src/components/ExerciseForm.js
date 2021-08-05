@@ -1,4 +1,5 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.css'
 
 class ExercisesNew extends React.Component{
 
@@ -42,8 +43,8 @@ class ExercisesNew extends React.Component{
                         value={form.img}
                     />
                 </div>
-                <div className="form-row">
-                    <div className="col">
+                <div className="row">
+                    <div className="col-5">
                         <input 
                             type="text" 
                             className="form-control" 
@@ -53,7 +54,7 @@ class ExercisesNew extends React.Component{
                             value={form.leftColor}
                         />
                     </div>
-                    <div className="col">
+                    <div className="col-5">
                         <input 
                             type="text" 
                             className="form-control"
